@@ -13,10 +13,8 @@ public class Passaro extends Animal {
 
     @Override
     public void mover(){
-        System.out.println("Passaro " + getNome() + " voando ~ ~ ~ ~ >");
-        int localAtual = getLocalizacao();
-        localAtual += 3;
-        super.setLocalizacao(localAtual);
+        setLocalizacao(getLocalizacao() + 3);
+        System.out.println("Ave "+ getNome() + " voando ^^^^^" + getLocalizacao() + " metros de distância");
     }
 
 }
