@@ -33,6 +33,6 @@ public class Animal {
     
     @Override
     public String toString() {
-        return "Animal{" + "nome=" + nome + ", patas=" + patas + ", velocidade=" + velocidade + ", localizacao=" + localizacao + '}';
+        return "Animal: " + "\n Nome: " + nome + "\n Patas: " + patas + "\n Velocidade: " + velocidade + "\n Localizacao: " + localizacao+ "\n --------------------------";
     }
 }
